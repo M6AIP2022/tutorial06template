@@ -23,7 +23,6 @@ class Maze:
         self.start = self.grid[0][0]
         self.target = self.grid[-1][-1]
         self.reset_all()
-        random.seed(datetime.now())
 
     """
     Resets the GridElements of the maze
@@ -186,7 +185,6 @@ class Maze:
 
         self.reset_all()
         self.generate_open_maze()
-        random.seed(datetime.now())
 
         # The basic boxes
         for n in range(1, self.grid_size[1], 5):

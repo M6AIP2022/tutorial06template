@@ -8,7 +8,6 @@ class Search:
 
     def __init__(self, graph):
         self.graph = graph
-        random.seed(datetime.now())
 
     def breadth_first_solution(self):
 

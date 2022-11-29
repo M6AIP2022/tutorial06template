@@ -5,7 +5,7 @@ from exercise.search import Search
 
 
 # No need to change these tests.
-class TestExercise2_4_4_2:
+class TestExercise2_4_4_3:
 
     def test_greedy_path(self):
         a_maze = Maze(10, 10, (100, 100))
@@ -28,7 +28,7 @@ class TestExercise2_4_4_2:
         assert a_maze.target.distance is None, "Greedy should not find any path"
 
 
-class TestExercise2_4_4_3:
+class TestExercise2_4_4_4:
 
     def test_astar_path(self):
         a_maze = Maze(10, 10, (100, 100))
