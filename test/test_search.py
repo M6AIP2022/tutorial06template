@@ -4,7 +4,6 @@ from exercise.maze import Maze
 from exercise.search import Search
 
 
-# No need to change these tests.
 class TestExercise2_4_4_3:
 
     def test_greedy_path(self):
